@@ -1,5 +1,5 @@
 variable "filename" {
-  default = "/home/practicevm1/Day1/terraform-variables/devope_automated.txt"
+  default = "/home/ubuntu/terraform-course/devope_automated.txt"
 }
 
 variable "content" {
@@ -18,7 +18,7 @@ variable "content_map" {
 
 variable "file_list" {
   type = list
-  default = ["/home/practicevm1/Day1/terraform-variables/file1.txt","/home/pract                                                                             icevm1/Day1/terraform-variables/file2.txt"]
+  default = ["/home/ubuntu/terraform-course/file1.txt","/home/ubuntu/terraform-course/file2.txt"]
 }
 
 variable "aws_ec2_object" {
@@ -37,3 +37,5 @@ default = {
 }
 }
 
+
+variable "no_of_students" {}
