@@ -1,5 +1,5 @@
 resource "local_file" "devops" {
-  filename = "/home/practicevm1/Day1/terraform-variables/devopstest.txt"
+  filename = "/home/ubuntu/terraform-course/devopstest.txt"
   content  = var.content_map["content1"]
 }
 
